@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="KARTHIK">
+    <meta name="description" content="LIBRARY MANAGEMENT SYSTEM">
+  <title>Library Management System - Personal Details</title>
+  <link rel="stylesheet" href="members.html">
+
+  <style>
+    body{
+        background-image: url(img/management.png);
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .personal-details-form {
+      width: 400px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+    }
+    .personal-details-form h2 {
+      text-align: center;
+    }
+    .personal-details-form input[type="text"],
+    .personal-details-form input[type="email"],
+    .personal-details-form input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+    .personal-details-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    .personal-details-form input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form class="personal-details-form" action="http://127.0.0.1:5500/Projects/members.html" >
+      <h2>Personal Details</h2>
+      <input type="text" name="full_name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="number" name="phone_number" placeholder="Phone Number" required>
+      <input type="submit" value="Save">
+    </form>
+  </div>
+</body>
+</html>

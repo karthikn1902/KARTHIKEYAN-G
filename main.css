@@ -1,0 +1,40 @@
+html {
+    font-size: 18px;
+}
+body {
+    .members{
+        font: size 22px;
+        text-align: right;
+    }
+    .Books{
+        font: size 22px;
+        text-align: right;
+    }
+    .Books link a::after{
+        display: block;
+        margin: auto;
+    }
+    .nemesis{
+ float: left;
+ font-size: 22px;
+        width: 18%;  }
+        .lesbian{
+            float: left;
+            font-size: 19px;
+                   width: 20%;  }
+                   .Victory{
+                    float: left;
+                    font-size: 19px;
+                           width: 20%;  }
+                           .queens{
+                            float: left;
+                            font-size: 15px;
+                                   width: 15%;  }
+                           .more{
+                            text-align: right;
+                           }
+    background-color:white
+    }
+    
+
+
